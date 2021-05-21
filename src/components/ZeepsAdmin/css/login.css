@@ -1,0 +1,179 @@
+html {
+  --login-bg: #44358f;
+  --login-btn-bg: #44358f;
+}
+
+.login-bg,
+.admin-top-navigation,
+.admin-top-navigation ul {
+  background: var(--login-bg) !important;
+}
+.login-btn-bg {
+  background: var(--login-btn-bg) !important;
+  border-color: var(--login-btn-bg) !important;
+  transition-duration: 0.3s;
+}
+.login-btn-bg:hover {
+  background: white !important;
+  border-color: white !important;
+  color: var(--login-btn-bg) !important;
+}
+
+.login-input,
+.login-input input {
+  background: var(--login-bg) !important;
+  color: white !important;
+}
+.login-input:focus,
+.login-input-focused {
+  border-color: var(--login-bg) !important;
+}
+.login-input:hover {
+  border-color: white !important;
+}
+.login-content {
+  padding: 55px 0px 30px 0px;
+}
+.zeeps-logo {
+  /* height: 32px; */
+  /* background: rgba(255, 0, 0, 0.2); */
+  margin: 20px 0px;
+}
+/* .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: 50px !important;
+} */
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ant-btn-round {
+  min-width: 100px;
+}
+.ant-btn {
+  border: 1px solid #44358f;
+  border-radius: 5px;
+  color: #44358f;
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  color: #000;
+  border-color: #44358f;
+}
+/* .ant-select-single .ant-select-selector .ant-select-selection-item {
+  line-height: 50px;
+} */
+/* Login Page */
+.ant-form-item-explain.ant-form-item-explain-error {
+  /* font-size: 12px; */
+  /* margin-bottom: 10px; */
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.ant-input,
+.ant-input-affix-wrapper {
+  padding: 13px;
+  border-radius: 5px;
+}
+.ant-form-item-label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ant-btn-round.ant-btn-lg {
+  height: 50px;
+}
+.admin-aside-main-menu {
+  height: 50px;
+}
+.ant-btn-round {
+  height: 50px;
+}
+.height-56 {
+  height: 56px;
+}
+/* svg {
+  color: #fff;
+} */
+.login-btn-bg span {
+  /* position: absolute; */
+  /* top: 12px; */
+}
+.login-btn-bg {
+  /* padding: 25px; */
+  background-color: #695da5 !important;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.4);
+  border-radius: 35px;
+  color: #fff;
+}
+@-webkit-keyframes autofill {
+  0%,
+  100% {
+    color: #666;
+    background: transparent !important;
+  }
+}
+
+input:-webkit-autofill input#basic_password:-webkit-autofill {
+  -webkit-animation-delay: 1s; /* Safari support - any positive time runs instantly */
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
+.ant-select-selection {
+  background-color: transparent;
+}
+.divider {
+  border-bottom: 1px solid #cfcfcf;
+}
+.ant-divider.ant-divider-horizontal {
+  border-bottom: 1px solid #1f1f1f;
+}
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin-bottom: 5px;
+}
+.ant-btn-round.ant-btn-lg {
+  padding: 6.4px 30px;
+}
+.mb-45 {
+  margin-bottom: 45px;
+}
+/* svg {
+  color: #000;
+} */
+.mr-2 {
+  margin-right: 10px;
+}
+.height-100 {
+  height: 100vh;
+}
+.height-50 {
+  height: 50px;
+}
+.ant-layout-sider-children {
+  height: calc(100vh - 74px);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+@media(max-width: 575px) {
+  .login-content {
+    padding: 35px 0px 20px 0px;
+  }
+}

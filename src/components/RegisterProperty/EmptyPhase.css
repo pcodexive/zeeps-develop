@@ -1,0 +1,12 @@
+.EmptyPhase {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  margin: 25px 0 50px 0;
+}
+
+@media screen and (max-width: 360px) {
+  .EmptyPhase {
+    font-size: 0.8rem;
+  }
+}

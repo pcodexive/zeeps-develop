@@ -1,0 +1,22 @@
+version: "3.3"
+
+services:
+  frontend:
+    # image: gcr.io/registryId/frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/frontend/src
+      # - ./pages:/frontend/pages
+      - ./public:/frontend/public
+    ports:
+      - 3000:3000
+    env_file:
+      - ./.env
+    command: "npm run start"
+
+networks:
+  default:
+    external:
+      name: zeeps_networks

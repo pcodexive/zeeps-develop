@@ -1,0 +1,30 @@
+.cs-show-email {
+    height: 100vh;
+}
+.cs-show-email .form2-main {
+    margin: 0 auto 0 auto;
+}
+.cs-show-email .cs-email-value {
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 0;
+    color: #fff!important;
+    text-align: center;
+    border-top: 1px solid #ffffff66;
+    border-bottom: 1px solid #ffffff66;
+    padding: 30px 0;
+}
+.cs-show-email .login-btn-bg.cs-form2-btn {
+    margin: 50px 15px 0 15px;
+    width: 95%;
+}
+@media(max-width:575px) {
+    .cs-show-email .cs-email-value {
+        padding: 15px 0;
+    }
+}
+@media(max-width:320px) {
+    .cs-show-email .cs-email-value {
+        font-size: 11px;
+    }
+}

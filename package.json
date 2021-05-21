@@ -1,0 +1,53 @@
+{
+  "name": "zeeps-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.9.4",
+    "antd-mobile": "^2.3.4",
+    "axios": "^0.21.1",
+    "base64-img": "^1.0.4",
+    "dotenv": "^8.2.0",
+    "image-to-base64": "^2.1.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-daum-postcode": "^2.0.4",
+    "react-dom": "^17.0.1",
+    "react-export-excel": "^0.5.3",
+    "react-full-kakao-maps": "^0.1.2",
+    "react-input-mask": "^2.0.4",
+    "react-kakao-maps": "^0.0.13",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "stream": "0.0.2",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
